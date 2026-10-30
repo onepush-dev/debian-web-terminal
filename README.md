@@ -1,6 +1,6 @@
 # Debian Web Terminal — Debian 12 (bookworm) shell in your browser and over SSH, sharing one tmux session. Deploy on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dqcLWL)
 
 A persistent **Debian 12 (bookworm)** box on Railway. Open the public URL for a full terminal in the browser ([ttyd](https://github.com/tsl0922/ttyd) 1.7.7, HTTP basic auth), or SSH in through a Railway TCP proxy. Both land in the **same tmux session** (`main`), so a job you start in the browser is still running when you SSH in from your laptop, and the other way round. `/home` lives on a volume. No deploy-time input: the login password is generated per deploy.
 
