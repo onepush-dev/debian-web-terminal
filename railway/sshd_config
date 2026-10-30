@@ -1,0 +1,9 @@
+# Railway: sshd behind a TCP proxy. Port/password settings are written at start to 20-runtime.conf.
+PermitRootLogin no
+KbdInteractiveAuthentication no
+UsePAM yes
+X11Forwarding no
+AllowTcpForwarding yes
+ClientAliveInterval 30
+ClientAliveCountMax 6
+PrintMotd no
